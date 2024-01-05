@@ -1,0 +1,103 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container{
+    background-color: white;
+    width: 800px;
+    max-height: auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    gap: 50px;
+}
+
+.left {
+    padding-left: 50px;
+    width: 50%;
+    padding-bottom: 40px;
+}
+
+.left h1 {
+    font-size: 45px;
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.left p {
+    font-size: 13px;
+    color: hsl(234, 29%, 20%);
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.list-box {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.list-box p {
+    font-size: 13px;
+    line-height: 0.25;
+}
+
+.single-list {
+    display: flex; 
+    gap: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.email-state{
+    font-size: 13px;
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+}
+
+.inputEmail{
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid hsl(231, 7%, 60%);
+    padding: 15px;
+    color: hsl(234, 29%, 20%);
+}
+
+.subscribeButton{
+    margin-top: 15px;
+    background-color: hsl(234, 29%, 20%);
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.subscribeButton:hover{
+    cursor: pointer;
+}
+
+
+.right img{
+    height: 90%;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15px;
+}
+
