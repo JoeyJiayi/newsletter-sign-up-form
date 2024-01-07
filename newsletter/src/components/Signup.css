@@ -62,10 +62,19 @@
     gap: 10px;
 }
 
-.email-state{
+.emailBox {
+    display: flex;
+    justify-content: space-between;
     font-size: 13px;
-    color: hsl(234, 29%, 20%);
     font-weight: 700;
+}
+
+.email-state{
+    color: hsl(234, 29%, 20%);
+}
+
+.error-state {
+    color: hsl(4, 100%, 67%);
 }
 
 .inputEmail{
@@ -90,6 +99,7 @@
 
 .subscribeButton:hover{
     cursor: pointer;
+    background: linear-gradient(-45deg, rgb(255, 106, 58) 0%, rgb(255, 82, 123) 100%);
 }
 
 
@@ -100,4 +110,45 @@
     padding-bottom: 20px;
     margin-left: 15px;
 }
+
+
+.success-container {
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px;
+    width: 350px;
+}
+
+.success-container h1 { 
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.success-container p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    padding-bottom: 20px;
+    margin-top: -15px;
+}
+
+.dismissButton{
+    background-color: hsl(234, 29%, 20%);
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    width: 350px;
+}
+
+.dismissButton:hover{
+    background: linear-gradient(-45deg, rgb(255, 106, 58) 0%, rgb(255, 82, 123) 100%);
+    cursor: pointer;
+}
+
+
+
 
